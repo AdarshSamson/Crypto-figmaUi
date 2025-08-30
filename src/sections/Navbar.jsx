@@ -4,10 +4,10 @@ import { FiMenu, FiX } from "react-icons/fi";
 
 const navLinks = [
   { label: "Home", href: "/" },
-  { label: "Trade", href: "/trade" },
-  { label: "Market", href: "/market" },
-  { label: "Learn", href: "/learn" },
-  { label: "Support", href: "/support" },
+  { label: "Trade", href: "/" },
+  { label: "Market", href: "/" },
+  { label: "Learn", href: "/" },
+  { label: "Support", href: "/" },
 ];
 
 const Navbar = () => {
