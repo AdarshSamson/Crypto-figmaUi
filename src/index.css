@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+  --color-primary: #00ffa0;
+  --color-primary-500: #00ffa02b;
+  --color-primary-hover: #00e691;
+  --color-primary-color: #0e1224;
+  --color-danger: #ff4d4f;
+  --color-danger-hover: #ff7875;
+}
+
+.input-group {
+  @apply flex items-center bg-gray-800 rounded-lg p-3 transition-colors duration-200;
+}
+
+.input-group:focus-within {
+  @apply ring-2 ring-primary/50;
+}
+
+.input-field {
+  @apply flex-1 bg-transparent text-white text-lg outline-none w-16 md:w-auto;
+}
+
+@layer utilities {
+
+  button:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+}
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes rotateSlow {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(90deg);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 3.5s ease-in-out infinite;
+}
+
+.animate-float-slow {
+  animation: floatSlow 4s ease-in-out infinite;
+}
+
+.animate-rotate-slow {
+  animation: rotateSlow 4s ease-in-out infinite;
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "bitcoin",
+    "symbol": "btc",
+    "name": "Bitcoin",
+    "price": 49645,
+    "price_change_percentage_24h": 14.04,
+    "icon": "FaBitcoin",
+    "iconColor": "yellow",
+
+    "sparkline": [48000, 58200, 29000, 69500, 19700, 59200, 99645]
+  },
+  {
+    "id": "ethereum",
+    "symbol": "eth",
+    "name": "Ethereum",
+    "price": 36675,
+    "price_change_percentage_24h": 43.04,
+    "icon": "FaEthereum",
+    "iconColor": "purple",
+    "sparkline": [35000, 18000, 70000, 23000, 84000, 25500, 36675]
+  },
+  {
+    "id": "solana",
+    "symbol": "sol",
+    "name": "Solana",
+    "price": 1456,
+    "price_change_percentage_24h": -14.23,
+    "icon": "SiSolana",
+    "iconColor": "green",
+    "sparkline": [8600, 8580, 1550, 6500, 1480, 7465, 1456]
+  },
+  {
+    "id": "dogecoin",
+    "symbol": "doge",
+    "name": "Dogecoin",
+    "price": 41645,
+    "price_change_percentage_24h": 17.06,
+    "icon": "SiDogecoin",
+    "iconColor": "red",
+    "sparkline": [69000, 29500, 10000, 60500, 71000, 41500, 91645]
+  }
+]

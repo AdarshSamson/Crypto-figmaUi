@@ -1,0 +1,40 @@
+{
+  "cryptoServicesData": [
+    {
+      "icon": "FaGraduationCap",
+      "title": "Learn Crypto",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "time": "Time data",
+      "buttonText": "Learn More"
+    },
+    {
+      "icon": "FaCoins",
+      "title": "Learn Earn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "time": "Time data",
+      "buttonText": "Learn More"
+    },
+    {
+      "icon": "FaChartLine",
+      "title": "How To Trade",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "time": "Time data",
+      "buttonText": "Learn More"
+    },
+    {
+      "icon": "FaWallet",
+      "title": "Build Portfolio",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "time": "Time data",
+      "buttonText": "Learn More"
+    }
+  ],
+
+  "featuredTopics": [
+    {
+      "title": "Let's Learn How Crypto Currency Work?",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit - Time data",
+      "buttonText": "Learn More"
+    }
+  ]
+}
