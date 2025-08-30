@@ -20,7 +20,7 @@ const colorMap = {
 
 const CryptoTable = () => {
   return (
-    <div className="py-16 p-6 rounded-2xl text-white mt-10 shadow-lg">
+    <div className="py-10 p-6 rounded-2xl text-white mt-10 shadow-lg">
       <div className="mx-auto text-center">
         <Button
           text={"Trade Crypto"}
