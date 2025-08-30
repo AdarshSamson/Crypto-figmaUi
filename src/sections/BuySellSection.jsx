@@ -104,7 +104,7 @@ const BuySellSection = () => {
             <Button
               text={activeTab === "buy" ? "Buy Crypto" : "Sell Crypto"}
               variant={activeTab === "buy" ? "primary" : "danger"}
-              rounded="md"
+              rounded="lg"
               className="h-10  flex items-center whitespace-nowrap"
             />
           </div>
