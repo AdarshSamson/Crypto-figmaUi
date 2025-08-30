@@ -19,7 +19,7 @@ const BuySellSection = () => {
                 onClick={() => setActiveTab("buy")}
                 text={"Buy"}
                 variant={activeTab === "buy" ? "primary" : ""}
-                rounded="md"
+                rounded="lg"
                 className={` ${
                   activeTab === "buy"
                     ? ""
@@ -32,7 +32,7 @@ const BuySellSection = () => {
               <Button
                 text={"Sell"}
                 variant={activeTab === "sell" ? "danger" : ""}
-                rounded="md"
+                rounded="lg"
                 onClick={() => setActiveTab("sell")}
                 className={` ${
                   activeTab === "sell"
